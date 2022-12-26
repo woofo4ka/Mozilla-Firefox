@@ -40,7 +40,7 @@ user_pref("browser.discovery.enabled", false);
 
 // Do not auto-hide Downloads button in toolbar
 // Не скрывать кнопку "Загрузки" на панели инструментов
-user_pref("browser.download.autohideButton", false);
+user_pref("browser.download.autohideButton", true);
 
 // Ask what to do for each file before downloading
 // Спрашивать, что делать для каждого файла перед загрузкой
@@ -117,6 +117,10 @@ user_pref("browser.sessionstore.max_tabs_undo", 20);
 // Set homepage and new windows on https://ya.ru
 // Установить домашнюю страницу страницу и новые окна на https://ya.ru
 user_pref("browser.startup.homepage", "https://ya.ru");
+
+// Restore previous session
+// Восстанавливать предыдущую сессию
+user_pref("browser.startup.page", 0);
 
 // Double-сlick to close tabs feature
 // Закрывать вкладки двойным нажатием левой кнопки мыши
