@@ -118,10 +118,6 @@ user_pref("browser.sessionstore.max_tabs_undo", 20);
 // Установить домашнюю страницу страницу и новые окна на https://ya.ru
 user_pref("browser.startup.homepage", "https://ya.ru");
 
-// Restore previous session
-// Восстанавливать предыдущую сессию
-user_pref("browser.startup.page", 3);
-
 // Double-сlick to close tabs feature
 // Закрывать вкладки двойным нажатием левой кнопки мыши
 user_pref("browser.tabs.closeTabByDblclick", true);
@@ -140,7 +136,7 @@ user_pref("browser.tabs.inTitlebar", 0);
 
 // Show Drag Space
 // Отобразить место для перетаскивания окна
-user_pref("browser.tabs.extraDragSpace", true);
+user_pref("browser.tabs.extraDragSpace", false);
 
 // Open new tabs on the right
 // Открывать новые вкладки справа
